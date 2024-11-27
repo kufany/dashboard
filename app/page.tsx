@@ -19,7 +19,7 @@ export default function Page() {
               Next.js Learn Course
             </a>
           </p>
-          <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>현우야 현서야 안녕!!</p>
+          <p className={`${lusitana.className} text-xl text-gray-800 md:text-2xl md:leading-normal`}>현우야 현서야 안녕!!</p>
           <Link
             href="/login"
             className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
@@ -37,7 +37,7 @@ export default function Page() {
             alt="Screenshots of the dashboard project showing desktop version"
           />
           <Image
-            src="/hero-mobile.png"
+            src="/my_kids_mobile.png"
             width={560}
             height={620}
             className="block md:hidden"
