@@ -48,6 +48,9 @@ const customers = [
   },
 ];
 
+
+
+
 const invoices = [
   {
     customer_id: customers[0].id,
@@ -129,8 +132,9 @@ const invoices = [
   },
 ];
 
+
 const revenue = [
-  { month: 'Jan', revenue: 2000 },
+  { month: 'Jan', revenue: 4000 },
   { month: 'Feb', revenue: 1800 },
   { month: 'Mar', revenue: 2200 },
   { month: 'Apr', revenue: 2500 },
